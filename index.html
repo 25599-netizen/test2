@@ -1,185 +1,174 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="th">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-874" />
-<title>E-learning  �ԪҤ���������</title>
-<style type="text/css">
-<!--
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background-color: #FF6699;
-	text-align: center;
-}
-a:link {
-	color: #FFDEEF;
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color: #FFDEEF;
-}
-a:hover {
-	text-decoration: none;
-	color: #FFDEEF;
-}
-a:active {
-	text-decoration: none;
-	color: #FFDEEF;
-	text-align: center;
-}
-.center {
-	text-align: center;
-}
--->
-</style>
-<script type="text/javascript">
-<!--
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ฟอร์มบันทึกข้อมูลนักเรียน</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        body { background-color: #f8f9fa; font-family: 'ChulaCharasNew', 'Helvetica Neue', sans-serif; }
+        .form-container { max-width: 600px; margin: 50px auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    </style>
 </head>
+<body>
 
-<body onload="MM_preloadImages('images/operating2.png','images/office2.png','images/graphic2.png','images/programming2.png')">
-<div align="center"></div>
-<table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
-  <!--DWLayoutTable-->
-  <tr>
-    <td width="1012" height="41" valign="top"><center>
-      <p><img src="images/head.png" alt=" " width="1000" height="300" /></p>
-      <table width="900" border="0" align="center" cellpadding="10" cellspacing="0">
-        <tr>
-          <td width="240" bgcolor="#FFFF00"><div align="center"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image18','','images/operating2.png',1)"><img src="images/operating1.png" name="Image18" width="240" height="42" border="0" id="Image18" /></a></div></td>
-          <td width="249" bgcolor="#CC66FF"><div align="center"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image19','','images/office2.png',1)"><img src="images/office1.png" name="Image19" width="240" height="42" border="0" id="Image19" /></a></div></td>
-          <td width="244" bgcolor="#99FF00"><div align="center"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image17','','images/graphic2.png',1)"><img src="images/graphic1.png" name="Image17" width="240" height="42" border="0" id="Image17" /></a></div></td>
-          <td width="246" bgcolor="#FF6600"><div align="center"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image20','','images/programming2.png',1)"><img src="images/programming1.png" name="Image20" width="240" height="42" border="0" id="Image20" /></a></div></td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00" class="center"><a href="windows10/index.html" target="_blank"><img src="images/windows10.png" alt="" width="160" height="100" /></a></td>
-          <td bgcolor="#CC66FF" class="center"><a href="word2019/index.html" target="_blank"><img src="images/word2019.png" width="160" height="100" /></a></td>
-          <td bgcolor="#99FF00" class="center"><a href="Illustrator_CC/index.html" target="_blank"><img src="images/illustratorCC.png" width="160" height="100" /></a></td>
-          <td bgcolor="#FF6600" class="center"><a href="vb2010/index.html" target="_blank"><img src="images/vb2010.png" alt="" width="160" height="100" /></a></td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00" class="center"><a href="windows8/index.html" target="_blank"><img src="images/windows8.png" alt="" width="160" height="100" /></a></td>
-          <td bgcolor="#CC66FF" class="center"><a href="excel2019/index.html" target="_blank"><img src="images/excel2019.png" width="160" height="100" /></a></td>
-          <td bgcolor="#99FF00" class="center"><a href="photoshop_CC/index.html" target="_blank"><img src="images/photoshopCC.png" width="160" height="100" /></a></td>
-          <td bgcolor="#FF6600" class="center"><a href="vb6/index.html" target="_blank"><img src="images/vb6.png" alt=" " width="160" height="100" /></a></td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00" class="center"><a href="windows7/index.html" target="_blank"><img src="images/windows7.png" alt=" " width="160" height="100" /></a></td>
-          <td bgcolor="#CC66FF" class="center"><a href="powerpoint2019/index.html" target="_blank"><img src="images/powerpoint2019.png" alt="" width="160" height="100" /></a></td>
-          <td bgcolor="#99FF00" class="center"><a href="after_effect_CC/index.html" target="_blank" ><img src="images/after_effectCC.png" width="160" height="100" /></a></td>
-          <td bgcolor="#FF6600" class="center"><a href="logoblock/index.html" target="_blank"><img src="images/logoblock.png" alt=" " width="160" height="100" /></a></td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00" class="center"><a href="/ict_computer/ie8/index.html" target="_blank"><img src="images/ie8.png" alt="" width="160" height="100" /></a></td>
-          <td bgcolor="#CC66FF" class="center"><a href="access2019/index.html" target="_blank"><img src="images/access2019.png" width="160" height="100" /></a></td>
-          <td bgcolor="#99FF00" class="center"><a href="dream_cs5/index.html" target="_blank"><img src="images/dreamcs5.png" alt=" " width="160" height="100" /></a></td>
-          <td bgcolor="#FF6600" class="center"><a href="microworlds/index.html" target="_blank"><img src="images/microworlds.png" alt="" width="160" height="100" /></a></td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="powerpoint2016/index.html" target="_blank"><img src="images/powerpoint2016.png" alt=" " width="160" height="100" /></a></div></td>
-          <td bgcolor="#99FF00" class="center"><a href="flash_cs5/index.html" target="_blank"><img src="images/flashcs5.png" alt=" " width="160" height="100" /></a></td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="access2016/index.html" target="_blank"><img src="images/access2016.png" alt=" " width="160" height="100" /></a></div></td>
-          <td bgcolor="#99FF00" class="center"><a href="photoshop_cs5/index.html" target="_blank"><img src="images/photoshopcs5.png" alt=" " width="160" height="100" /></a></td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="word2016/index.html" target="_blank"><img src="images/word2016.png" alt=" " width="160" height="100" /></a></div></td>
-          <td bgcolor="#99FF00" class="center"><a href="illustrator_cs5/index.html" target="_blank"><img src="images/illuscs5.png" alt="" width="160" height="100" /></a></td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="excel2016/index.html" target="_blank"><img src="images/excel2016.png" alt=" " width="160" height="100" /></a></div></td>
-          <td bgcolor="#99FF00" class="center">&nbsp;</td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="powerpoint2013/index.html" target="_blank"><img src="images/powerpoint2013.png" alt=" " width="160" height="100" /></a></div></td>
-          <td bgcolor="#99FF00" class="center">&nbsp;</td>
-          <td bgcolor="#FF6600"></td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="access2013/index.html" target="_blank"><img src="images/Access2013.png" alt=" " width="160" height="100" /></a></div></td>
-          <td bgcolor="#99FF00" class="center">&nbsp;</td>
-          <td bgcolor="#FF6600"><center>
-            <a href="/ict_computer/microworlds/index.html" target="_blank"></a>
-          </center></td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="word2013/index.html" target="_blank"><img src="images/word2013.png" alt=" " width="160" height="100" /></a></div></td>
-          <td bgcolor="#99FF00" class="center">&nbsp;</td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="excel2013/index.html" target="_blank"><img src="images/excel2013.png" alt=" " width="160" height="100" /></a></div></td>
-          <td bgcolor="#99FF00">&nbsp;</td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="/ict_computer/powerpoint2007/index.html" target="_blank"></a></div></td>
-          <td bgcolor="#99FF00">&nbsp;</td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"><a href="/ict_computer/access2007/index.html" target="_blank"></a></div></td>
-          <td bgcolor="#99FF00">&nbsp;</td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"></div></td>
-          <td bgcolor="#99FF00">&nbsp;</td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bgcolor="#FFFF00">&nbsp;</td>
-          <td bgcolor="#CC66FF"><div align="center"></div></td>
-          <td bgcolor="#99FF00">&nbsp;</td>
-          <td bgcolor="#FF6600">&nbsp;</td>
-        </tr>
-      </table>
-      <p>&nbsp;</p>
-    </center></td>
-  </tr>
-  <tr>
-    <td height="93" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
-  </tr>
-</table>
+<div class="container">
+    <div class="form-container">
+        <h2 class="text-center mb-4 text-primary">ระบบบันทึกข้อมูลนักเรียน</h2>
+        
+        <form id="studentForm">
+            <div class="mb-3">
+                <label for="prefix" class="form-label">คำนำหน้าชื่อ</label>
+                <select class="form-select" id="prefix" required>
+                    <option value="" disabled selected>เลือกคำนำหน้าชื่อ</option>
+                    <option value="เด็กชาย">เด็กชาย</option>
+                    <option value="เด็กหญิง">เด็กหญิง</option>
+                    <option value="นาย">นาย</option>
+                    <option value="นางสาว">นางสาว</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="firstName" class="form-label">ชื่อ</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="ภาษาไทย" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="lastName" class="form-label">นามสกุล</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="ภาษาไทย" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="grade" class="form-label">ชั้นมัธยมศึกษาปีที่</label>
+                    <select class="form-select" id="grade" required>
+                        <option value="" disabled selected>เลือกชั้นปี</option>
+                        <option value="1">ม.1</option>
+                        <option value="2">ม.2</option>
+                        <option value="3">ม.3</option>
+                        <option value="4">ม.4</option>
+                        <option value="5">ม.5</option>
+                        <option value="6">ม.6</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="room" class="form-label">ห้อง</label>
+                    <input type="number" class="form-control" id="room" min="1" placeholder="ตัวเลข เช่น 1" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="studentNo" class="form-label">เลขที่</label>
+                    <input type="number" class="form-control" id="studentNo" min="1" placeholder="เช่น 15" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="studentId" class="form-label">เลขประจำตัว (5 หลัก)</label>
+                    <input type="text" class="form-control" id="studentId" pattern="\d{5}" maxlength="5" placeholder="ตัวเลข 5 หลัก" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="height" class="form-label">ส่วนสูง (ซม.)</label>
+                    <input type="number" step="0.1" class="form-control" id="height" placeholder="เช่น 165.5" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="weight" class="form-label">น้ำหนัก (กก.)</label>
+                    <input type="number" step="0.1" class="form-control" id="weight" placeholder="เช่น 52.3" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 mt-3">บันทึกข้อมูล</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    // กำหนด URL ของ Google Apps Script ที่ได้มา
+    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwHV_PPEoSmazXpVo1uKzZtRfr3CRQD20qbtwNT3o0Jx9gJZIAcdmTr9eGcI41mFcpIOg/exec";
+
+    document.getElementById('studentForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // ป้องกันการรีโหลดหน้าจอเมื่อกดส่งฟอร์ม
+
+        // 1. แสดง SweetAlert กำลังโหลด (Loading) ห้ามผู้ใช้กดปิดเอง
+        Swal.fire({
+            title: 'กำลังบันทึกข้อมูล...',
+            text: 'กรุณารอสักครู่ระบบกำลังส่งข้อมูลไปยังฐานข้อมูล',
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            }
+        });
+
+        // 2. ดึงข้อมูลจากฟอร์ม
+        const data = {
+            prefix: document.getElementById('prefix').value,
+            firstName: document.getElementById('firstName').value,
+            lastName: document.getElementById('lastName').value,
+            grade: document.getElementById('grade').value,
+            room: document.getElementById('room').value,
+            studentNo: document.getElementById('studentNo').value,
+            studentId: document.getElementById('studentId').value,
+            height: document.getElementById('height').value,
+            weight: document.getElementById('weight').value
+        };
+
+        // 3. เริ่มกระบวนการส่งข้อมูลแบบ JSONP
+        // กำหนดชื่อ Callback function สำหรับรับค่ากลับมา (แบบสุ่มเพื่อไม่ให้ซ้ำกันกรณีส่งติดๆ กัน)
+        const callbackName = 'jsonpCallback_' + Math.round(100000 * Math.random());
+        
+        // สร้างฟังก์ชันชั่วคราวบน window เพื่อให้ Google Apps Script เรียกกลับมาทำงาน
+        window[callbackName] = function(response) {
+            if (response.result === 'success') {
+                // แจ้งเตือนเมื่อบันทึกสำเร็จ
+                Swal.fire({
+                    icon: 'success',
+                    title: 'บันทึกสำเร็จ!',
+                    text: 'ข้อมูลของท่านถูกบันทึกลงในระบบเรียบร้อยแล้ว',
+                    confirmButtonText: 'ตกลง'
+                });
+                document.getElementById('studentForm').reset(); // เคลียร์ข้อมูลเก่าในฟอร์มออก
+            } else {
+                // แจ้งเตือนเมื่อเกิดข้อผิดพลาดจากฝั่ง Server
+                Swal.fire({
+                    icon: 'error',
+                    title: 'เกิดข้อผิดพลาด',
+                    text: 'ไม่สามารถบันทึกข้อมูลได้: ' + response.message
+                });
+            }
+            
+            // ลบแท็ก <script> และฟังก์ชัน callback ทิ้งหลังจากทำงานเสร็จเพื่อเคลียร์หน่วยความจำ
+            document.body.removeChild(script);
+            delete window[callbackName];
+        };
+
+        // แปลงออบเจกต์ข้อมูลให้อยู่ในรูป Query String สำหรับส่งผ่าน URL
+        const queryString = Object.keys(data)
+            .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+            .join('&');
+
+        // 4. สร้างแท็ก <script> เพื่อยิงคำขอไปยัง Apps Script (หัวใจหลักของ JSONP เพื่อเลี่ยง CORS)
+        const script = document.createElement('script');
+        script.src = `${WEB_APP_URL}?callback=${callbackName}&${queryString}`;
+        
+        // หากส่งข้อมูลล้มเหลว (เช่น Network พัง หรือ URL ผิด)
+        script.onerror = function() {
+            Swal.fire({
+                icon: 'error',
+                title: 'การเชื่อมต่อล้มเหลว',
+                text: 'ไม่สามารถติดต่อกับระบบหลังบ้านได้ กรุณาลองใหม่อีกครั้ง'
+            });
+            delete window[callbackName];
+            document.body.removeChild(script);
+        };
+
+        // ยัดแท็ก script เข้าไปในหน้าเว็บเพื่อให้เบราว์เซอร์เริ่มโหลดรันโค้ดทันที
+        document.body.appendChild(script);
+    });
+</script>
+
 </body>
 </html>
